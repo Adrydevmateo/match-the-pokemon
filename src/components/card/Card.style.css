@@ -1,0 +1,41 @@
+.card {
+  border: 0.1em solid var(--color2);
+  padding: 1em;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  opacity: 0.7;
+  border-radius: .4em;
+  position: relative;
+  width: 4em;
+  height: 4em;
+  display: grid;
+  place-content: center;
+}
+
+.card img {
+  position: absolute;
+  width: 100%;
+  object-fit: contain;
+}
+
+.card img {
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.active {
+  transform: scale(1.06);
+  opacity: 1;
+  border-color: var(--color4);
+}
+
+.active img,
+.matched img {
+  opacity: 1;
+}
+
+.matched {
+  pointer-events: none;
+  opacity: 1;
+  border-color: var(--color3);
+}
