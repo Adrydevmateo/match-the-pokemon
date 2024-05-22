@@ -1,4 +1,4 @@
-import { useEffect, useState, useMemo } from "react";
+import { useState, useMemo } from "react";
 import "./App.css";
 import Card from "./components/card/Card.component.tsx";
 
