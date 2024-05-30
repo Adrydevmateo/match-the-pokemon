@@ -3,39 +3,40 @@
 .point {}
 
 .point .empty {
-  color: var(--color2);
+ color: var(--color2);
 }
 
 .point .value {
-  color: var(--color3);
+ color: var(--color3);
 }
 
 .card-list {
-  display: flex;
-  list-style: none;
-  flex-wrap: wrap;
-  gap: 1em;
-  justify-content: center;
-  padding: 0;
+ display: flex;
+ list-style: none;
+ flex-wrap: wrap;
+ gap: 1em;
+ justify-content: center;
+ padding: 0;
 }
 
 .controls {
-  display: grid;
-  place-content: center;
+ display: grid;
+ place-content: center;
 }
 
 .btn-play {
-  border: none;
-  padding: .6em 1.4em;
-  font-weight: bold;
-  cursor: pointer;
-  color: var(--color4);
-  background-color: var(--color3);
-  border-radius: .4em;
-  font-size: .8em;
+ border: none;
+ padding: .6em 1.4em;
+ font-weight: bold;
+ cursor: pointer;
+ color: var(--color4);
+ background-color: var(--color3);
+ border-radius: .4em;
+ font-size: .8em;
+ margin-top: 1em;
 }
 
 .btn-play:hover {
-  color: var(--color3);
-  background-color: var(--color4);
+ color: var(--color3);
+ background-color: var(--color4);
 }
